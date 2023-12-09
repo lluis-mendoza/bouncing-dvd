@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: 'Vhs', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+
+  color: rgba(226, 226, 226, 0.87);
+  background: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Vhs';
+  src: url("./assets/fonts/vhs.ttf");
+}
